@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carl Dingal - Web Dev Build Log</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-photo">
+        <img src="images/profile.png" alt="Portrait of Carl Dingal">
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow">~/carl-dingal/portfolio</p>
+        <h1>Carl Dingal</h1>
+        <p class="tagline">Building the web, one module at a time.</p>
+        <p class="intro">
+          This term I picked up HTML, CSS, and the habits that make a page actually work:
+          layout with Flexbox and Grid, responsive design that survives a phone screen,
+          and enough animation to make a button feel alive. Below is the log &mdash;
+          every entry links to the real, live page.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="log" aria-label="Project build log">
+      <h2 class="log-heading">Build log</h2>
+
+      <ol class="entries">
+        <li class="entry">
+          <div class="entry-marker">
+            <span class="badge">M2A4</span>
+            <span class="thread" aria-hidden="true"></span>
+          </div>
+          <div class="entry-body">
+            <h3><a href="projects/track-favorites/">My Favourite Events</a></h3>
+            <p class="entry-meta">Module 2 &middot; Activity 4 &middot; Layout &amp; components</p>
+            <p>
+              A single-page rundown of my go-to track workouts &mdash; 400m, 800m, and 10km &mdash;
+              laid out as a Flexbox row of cards. First real practice writing a component
+              (<code>.card</code>) styled by class instead of inline styles.
+            </p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">Flexbox</span>
+              <span class="tag">Typography</span>
+            </div>
+            <a class="visit" href="projects/track-favorites/">View project &rarr;</a>
+          </div>
+        </li>
+
+        <li class="entry">
+          <div class="entry-marker">
+            <span class="badge">M2A5</span>
+            <span class="thread" aria-hidden="true"></span>
+          </div>
+          <div class="entry-body">
+            <h3><a href="projects/curbside-thai/">Curbside Thai</a></h3>
+            <p class="entry-meta">Module 2 &middot; Activity 5 &middot; Responsive, multi-page site</p>
+            <p>
+              A three-page site for a fictional Thai food-truck &mdash; home, menu, and contact &mdash;
+              sharing one stylesheet. Rebuilt with a fluid container, wrapping flex rows, and a
+              media query so it holds together from desktop down to a phone.
+            </p>
+            <div class="tags">
+              <span class="tag">Multi-page</span>
+              <span class="tag">Responsive</span>
+              <span class="tag">Forms</span>
+            </div>
+            <a class="visit" href="projects/curbside-thai/">View project &rarr;</a>
+          </div>
+        </li>
+
+        <li class="entry">
+          <div class="entry-marker">
+            <span class="badge">M6A1</span>
+            <span class="thread" aria-hidden="true"></span>
+          </div>
+          <div class="entry-body">
+            <h3><a href="projects/peepmatch/">PeepMatch</a></h3>
+            <p class="entry-meta">Module 6 &middot; Activity 1 &middot; Midterm build</p>
+            <p>
+              A one-screen, dating-app-style profile card for a very fluffy client, built to
+              show off three modules at once: a designed card with gradients and shadows, a
+              vitals table and a validated sign-up form, and a hover transition plus a
+              pulsing keyframe animation on the Like button.
+            </p>
+            <div class="tags">
+              <span class="tag">CSS Animation</span>
+              <span class="tag">Tables</span>
+              <span class="tag">Form Validation</span>
+            </div>
+            <a class="visit" href="projects/peepmatch/">View project &rarr;</a>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Built this term for my intro web development course.</p>
+      <a href="https://github.com/tsuyin06" class="visit">GitHub &rarr;</a>
+    </div>
+  </footer>
+
+</body>
+</html>
