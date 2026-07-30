@@ -1,0 +1,59 @@
+/* Module 2 - Activity 4 - Review. Your styles go here.
+
+   Closed book: write these rules from memory. Link this file from index.html,
+   then style by class only (no style="" in the HTML).
+
+   Aim for: a Flexbox layout (display: flex), a styled .card component, and
+   a colour, a font-family, and some spacing (padding or margin). */
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 20px;
+   background: #f5f0e8;
+}
+.nav {
+   display: flex;
+   gap: 16px;
+   margin-bottom: 20px;
+}
+
+.nav a {
+   text-decoration: none;
+   color: #582c17
+}
+
+.cards {
+   display: flex;
+   gap: 16px;
+}
+
+.card{
+   background: #fff;
+   padding: 16px;
+   margin: 0;
+   border: 2px solid #d8c3b0;
+   border-radius: 12px;
+   font-family: Georgia, serif;
+   flex: 1;
+}
+
+.card h2 {
+   margin-top: 0;
+}
+
+.card .label {
+   font-family: Arial, sans-serif;
+   font-weight: bold;
+   color: #582c17;
+}
+
+.card p {
+   margin: 6px 0;
+}
+
+@media (max-width: 700px) {
+   .cards {
+      flex-direction: column;
+   }
+}
