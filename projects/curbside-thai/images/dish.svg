@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="A bowl of Thai food">
+  <rect width="320" height="220" fill="#fbf3e6"/>
+  <ellipse cx="160" cy="150" rx="112" ry="48" fill="#0b7a5b"/>
+  <path d="M52 148 a108 44 0 0 0 216 0 z" fill="#0e5f49"/>
+  <path d="M92 124 q30 -40 68 -12 q40 -30 70 8" stroke="#e08a00" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M100 138 q34 -34 66 -8 q36 -26 66 4" stroke="#f2b04a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="132" cy="120" r="7" fill="#e0472b"/>
+  <circle cx="196" cy="124" r="6" fill="#e0472b"/>
+</svg>
